@@ -3,6 +3,7 @@ import os
 import tkinter as tk
 from tkinter import * 
 from tkinter import filedialog
+import codecs
 
 webpage = 'https://www.facebook.com/FongshanHuangjie/'
 name = 'oo.py'
@@ -14,7 +15,7 @@ def add_line(pytxt,new):
 	pytxt.write('\n')
 
 def create_txt(webpage,location,dateline):
-	pytext = open(location,'a')
+	pytext = codecs.open(location,'a','utf-8')
 	#加入首頁
 	add_line(pytext,'main = ' + '\'' + webpage + '\'')
 	#套件
