@@ -37,5 +37,5 @@ def animation(i):
 	ax.set_title(title)
 
 ani = FuncAnimation(fig, animation, interval = 1,frames=timecode, repeat=False)
-ani.save('sample.mp4', writer='ffmpeg',fps = 40)
-#plt.show()
+#ani.save('sample.mp4', writer='ffmpeg',fps = 40)
+plt.show()
