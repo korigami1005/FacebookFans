@@ -22,9 +22,9 @@ selenium, codecs, tkinter, os, time, datetime, random
 python fans.py
 ```
 4.依據各欄位說明，填入對應內容，如圖所示。  
-![image](https://github.com/korigami1005/FacebookFans/blob/master/images/chorme%20version.png)
+![image](https://github.com/korigami1005/FacebookFans/blob/master/images/fans.png)
 5.按下「產生」，會自動生成對應檔案，如圖所示，即可關閉此頁面。  
-![image](https://github.com/korigami1005/FacebookFans/blob/master/images/chorme%20version.png)
+![image](https://github.com/korigami1005/FacebookFans/blob/master/images/new%20file.png)
 6.如原先python沒有安裝selenium套件，請先安裝。
 7.開啟終端機使用python執行你所產生的檔案，即可開始抓取資料，程式會自動將資料存成data.txt。  
 ```
