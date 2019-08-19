@@ -16,7 +16,7 @@ zs = []
 for line in lines:
 	if len(line) > 0:
 		x, y, z = line.split(',')
-		xs.append(int(x)-787)
+		xs.append(int(x))
 		ys.append(int(y))
 		zs.append(str(z))
 timecode = len(zs)
