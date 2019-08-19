@@ -30,7 +30,8 @@ python fans.py
 ```
 python ???_0830.py
 ```
-每一筆資料包含三個欄位，分別為預設的編號、抓取的按讚人數、抓取的當下時間。  
+每一筆資料包含三個欄位，分別為預設的編號、抓取的按讚人數、抓取的當下時間。
+![image](https://github.com/korigami1005/FacebookFans/blob/master/images/data.png)
   
 ### 簡易資料視覺化  
 #### 執行 main.py  
